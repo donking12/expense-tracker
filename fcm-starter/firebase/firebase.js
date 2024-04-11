@@ -22,9 +22,17 @@ import { getMessaging, isSupported } from 'firebase/messaging';
 import { getStorage } from "firebase/storage";
 
 // Configure Firebase.
-export const firebaseConfig = {
-    // Insert your Firebase project's configuration here
+export const firebaseConfig = {apiKey: "AIzaSyBFTXh3T0bUNEgv1z6Cho8nw-Qz5gF0JHQ",
+  authDomain: "ai-tools-46d79.firebaseapp.com",
+  projectId: "ai-tools-46d79",
+  storageBucket: "ai-tools-46d79.appspot.com",
+  messagingSenderId: "382128630514",
+  appId: "1:382128630514:web:576ad4bc043023d16fbe6b",
+  measurementId: "G-8MXZ63805N"
+    
 };
+    
+
 
 export const app = initializeApp(firebaseConfig);
 export const auth = getAuth(app);
